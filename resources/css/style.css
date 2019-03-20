@@ -1,0 +1,101 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  margin: 0 auto;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  justify-content: flex-start;
+  align-content: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  top: 0;
+}
+
+.logo {
+  padding-left: 10px;
+  flex-grow: 1;
+  margin: auto 0;
+}
+
+header img {
+  height: 50px;
+}
+
+nav {
+  margin: auto 0;
+  padding-right: 10px;
+}
+
+nav span {
+  display: inline-block;
+  margin: 0 10px;
+
+}
+
+nav a {
+  color: seashell;
+  font-size: 22px;
+}
+
+/* Main Section */
+
+content {
+  margin: 0 20px;
+}
+
+#addTopMargin {
+  margin-top: 50px;
+}
+
+h2, h4 {
+  text-align: center;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 69px auto 0 auto;
+}
+
+.text-jumbotron {
+  text-align: center;
+  background-color: black;
+}
+
+.text-jumbotron h2, h4 {
+  margin: 10px 0;
+}
+
+/* Gallery */
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery-item img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
